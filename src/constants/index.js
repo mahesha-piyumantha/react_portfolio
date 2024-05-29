@@ -5,72 +5,74 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a full stack developer with a passionate for building responsive and scalable web applications and mobile applications with 1.5 years of hands-on experience. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to grow my expertise to create innovative solutions for the competitive world and deliver remarkable user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a honor graduate from University of Westminster. I am a dedicated and versatile full stack developer with a passion for building efficient and user-friendly web and mobile applications. With 1.5 years of professional experience, I have worked with a many varieties of technologies such as React, Next.js, Node.js, Flutter, React-Native and MongoDB. My journey in web development and mobile development began with a enormous passion for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Software Developer",
+    company: "Freelance",
+    description: `Currently developing some client based mobile and web applications. I am also working on some open source projects.`,
+    technologies: ["Flutter", "React.js", "Next.js", "React.js"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 (Jun) - 2023 (Nov)",
+    role: "Backend Developer",
+    company: "BeeBee Digital PVT LTD",
+    description: `Designed and developed backend application using Node.js. Worked closely with senior backend developers to integrate some sensitive components with Node.js.`,
+    technologies: ["Node.js"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Mobile App Developer",
+    company: "ZynergyX Technologies",
+    description: `Developed and maintained mobile applications using Flutter and React-Native. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: ["Flutter" , "Firebase" , "React-Native"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2021 - 2022",
+    role: "Software Engineer Intern",
+    company: "Creative Software",
+    description: `Contributed to the development of azure cloud based developments using media services and app services.`,
+    technologies: ["Azure" , "React.js"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "ohhNFT",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: "Developed the version upgrade of the backend API of the ohhNFT marketplace.",
+    technologies: ["Node.js"],
   },
   {
-    title: "Task Management App",
+    title: "GemX",
+    image: project1,
+    description: "Developed a blockchain based crypto transferring wallet tool for mobile platforms.",
+    technologies: ["Flutter", "Firebase"],
+  },
+  {
+    title: "Verifica",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "Developed a blockchain based document verification tool for mobile platforms.",
+    technologies: ["Flutter", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Seal Reporter",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: "Developed a report generating tool using Azure app services.",
+    technologies: ["Azure App Services"],
   },
   {
-    title: "Blogging Platform",
+    title: "Web embedded video streaming platform",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: "Developed an embedded video streaming web application using Azure Media Services.",
+    technologies: ["HTML", "CSS", "Azure Media Services"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Colombo, Sri Lanka",
+  phoneNo: "0771794197 ",
+  email: "maheshapiyumantha19@gmail.com",
 };
