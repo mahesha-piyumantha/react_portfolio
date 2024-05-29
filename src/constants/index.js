@@ -73,6 +73,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Colombo, Sri Lanka",
-  phoneNo: "0771794197 ",
+  phoneNo: "077-1794197 ",
   email: "maheshapiyumantha19@gmail.com",
 };
