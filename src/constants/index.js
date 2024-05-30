@@ -2,6 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import azureMediaServices from "../assets/projects/azure media services.png";
+import gemx from "../assets/projects/gemx.png";
+import ohhnft from "../assets/projects/ohhnft.jpg";
+import sealReporter from "../assets/projects/seal reporter.png";
+import verifica from "../assets/projects/verifica.png";
 
 export const HERO_CONTENT = `I am a full stack developer with a passionate for building responsive and scalable web applications and mobile applications with 1.5 years of hands-on experience. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to grow my expertise to create innovative solutions for the competitive world and deliver remarkable user experiences.`;
 
@@ -41,32 +46,36 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "ohhNFT",
-    image: project1,
-    description: "Developed the version upgrade of the backend API of the ohhNFT marketplace.",
+    image: ohhnft,
+    description:
+      "Developed the version upgrade of the backend API of the ohhNFT marketplace.",
     technologies: ["Node.js"],
   },
   {
     title: "GemX",
-    image: project1,
-    description: "Developed a blockchain based crypto transferring wallet tool for mobile platforms.",
+    image: gemx,
+    description:
+      "Developed a blockchain based crypto transferring wallet tool for mobile platforms.",
     technologies: ["Flutter", "Firebase"],
   },
   {
     title: "Verifica",
-    image: project2,
-    description: "Developed a blockchain based document verification tool for mobile platforms.",
+    image: verifica,
+    description:
+      "Developed a blockchain based document verification tool for mobile platforms.",
     technologies: ["Flutter", "Firebase"],
   },
   {
     title: "Seal Reporter",
-    image: project3,
+    image: sealReporter,
     description: "Developed a report generating tool using Azure app services.",
     technologies: ["Azure App Services"],
   },
   {
     title: "Web embedded video streaming platform",
-    image: project4,
-    description: "Developed an embedded video streaming web application using Azure Media Services.",
+    image: azureMediaServices,
+    description:
+      "Developed an embedded video streaming web application using Azure Media Services.",
     technologies: ["HTML", "CSS", "Azure Media Services"],
   },
 ];
